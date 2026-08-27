@@ -65,4 +65,4 @@ An action-oriented view built for a risk/collections team.
 
 ## 👤 Author
 **Ayush**
-🔗 [LinkedIn](#) | 💻 [GitHub](https://github.com/Ayushdass)
+🔗 [LinkedIn](https://www.linkedin.com/in/ayush-das-5a2b65191/)) | 💻 [GitHub](https://github.com/Ayushdass)
