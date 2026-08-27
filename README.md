@@ -2,6 +2,8 @@
 
 An end-to-end credit risk analytics project built on the **CIBIL Credit Risk Dataset**, covering data cleaning in **MySQL** and a 3-page interactive **Power BI** dashboard that segments customers by risk category (P1–P4) and surfaces high-risk accounts for action.
 
+**Dataset:** [Leading Indian Bank and CIBIL Real World Dataset](https://www.kaggle.com/datasets/saurabhbadole/leading-indian-bank-and-cibil-real-world-dataset) (Kaggle)
+
 ## 📌 Project Overview
 
 Banks and lenders classify loan applicants into risk bands to guide approval decisions. This project analyzes a customer base of **51,336 records** to:
@@ -47,11 +49,17 @@ An action-oriented view built for a risk/collections team.
 
 ## 📁 Repository Structure
 ```
-├── sql/            # Data cleaning & analysis queries (MySQL)
-├── powerbi/         # .pbix dashboard file
-├── screenshots/      # Dashboard page exports
+├── sql/
+│   └── credit_risk_analysis.sql        # Data cleaning & analysis queries (MySQL)
+├── powerbi/
+│   └── credit_risk_analysis_BI.pbix    # Power BI dashboard file
+├── screenshots/
+│   ├── summary dashboard.png            # Page 1 — Summary Dashboard
+│   ├── deep drive.png                   # Page 2 — Deep-Dive by Customer Profile
+│   └── risk watch.png                   # Page 3 — High-Risk Customer Watchlist
 └── README.md
 ```
 
-## 🔗 Connect
-Feel free to explore the dashboard file and reach out with feedback or questions.
+## 👤 Author
+**Ayush**
+🔗 [LinkedIn](#) | 💻 [GitHub](https://github.com/Ayushdass)
