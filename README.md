@@ -27,6 +27,8 @@ High-level KPIs and risk distribution across the entire customer base.
 - Customer distribution by risk category (P1–P4)
 - Average credit score and credit/loan utilization trends by risk category
 
+![Summary Dashboard](summary%20dashboard.png)
+
 ### 2. Deep-Dive by Customer Profile
 Breaks down risk by customer attributes to find patterns behind the numbers.
 - Average loan count by type (Auto, CC, Personal, Home, Gold) across risk categories
@@ -34,11 +36,15 @@ Breaks down risk by customer attributes to find patterns behind the numbers.
 - Risk distribution by gender and marital status
 - Interactive slicers: Education, Approved Flag (P1–P4), Gender
 
+![Deep-Dive by Customer Profile](deep%20drive.png)
+
 ### 3. High-Risk Customer Watchlist
 An action-oriented view built for a risk/collections team.
 - Watchlist table of P3/P4 customers with conditional formatting (P4 highlighted)
 - Risk Count (P3+P4): **13,334** | Critical Risk Customers (P4): **5,882**
 - High-risk breakdown by income band, employment tenure, and gender
+
+![High-Risk Customer Watchlist](risk%20watch.png)
 
 ## 🔍 Key Insights
 - **~26% of customers fall in the high-risk band (P3+P4)**, with P4 (critical risk) alone accounting for 5,882 customers.
@@ -49,14 +55,11 @@ An action-oriented view built for a risk/collections team.
 
 ## 📁 Repository Structure
 ```
-├── sql/
-│   └── credit_risk_analysis.sql        # Data cleaning & analysis queries (MySQL)
-├── powerbi/
-│   └── credit_risk_analysis_BI.pbix    # Power BI dashboard file
-├── screenshots/
-│   ├── summary dashboard.png            # Page 1 — Summary Dashboard
-│   ├── deep drive.png                   # Page 2 — Deep-Dive by Customer Profile
-│   └── risk watch.png                   # Page 3 — High-Risk Customer Watchlist
+├── credit_risk_analysis.sql        # Data cleaning & analysis queries (MySQL)
+├── credit_risk_analysis_BI.pbix    # Power BI dashboard file
+├── summary dashboard.png           # Page 1 — Summary Dashboard
+├── deep drive.png                  # Page 2 — Deep-Dive by Customer Profile
+├── risk watch.png                  # Page 3 — High-Risk Customer Watchlist
 └── README.md
 ```
 
